@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@700&family=STIX+Two+Text:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+}
+body{
+    background-color:#eee;
+    font-family: 'Recursive', sans-serif;
+}
+.container{
+    width:1000px;
+    background-color:#e3ffff;
+    margin:0 auto;
+    padding:20px;
+}
+.profile-image{
+    -webkit-user-drag: none;
+    user-select:none;
+    width:95px;
+    height:97px;
+    border:3px solid #fff;
+    border-radius: 50%;
+    float:left;
+}
+.profile-bio{
+    float:left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#11999e;
+}
+.profile-contact{
+    float:right;
+    padding:30px;
+}
+.profile-contact a{
+    text-decoration:none;
+    color:teal;
+    font-weight:bold;
+}
+.profile-contact a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+.clear{
+    clear:both;
+}
+hr{
+    border:3px solid black;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+}
+.content{
+    margin-bottom:30px;
+}
+.left-side{
+    width:30%;
+    float:left;
+    font-size:1.1rem;
+}
+.right-side{
+    width:70%;
+    float:right;
+    font-size:1.1rem;
+}
+.common-hr{
+    border:1px solid black;
+    width:100%;
+    border-bottom:none;
+    margin:30px auto;
+}
+.edu-left{
+    float:left;
+    width:45%;
+}
+.edu-right{
+    float:right;
+    width:45%;
+}
+.right-side ul {
+    float:right;
+    width:42%;
+}
+.bottom-container{
+    user-select:none;
+    background-color:#212121;
+    text-align:center;
+    padding:35px;
+}
+.bottom-container a{
+    text-decoration:none;
+    color:teal;
+    font-size:1rem;
+    padding:17px;
+}
+.bottom-container p{
+    color:#fff;
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+    word-spacing:3px;
+}
+.bottom-container a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
